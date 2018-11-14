@@ -54,7 +54,7 @@
 	<script src="./assets/public/js/jquery.validate.min.js"></script>
 	<script src="./assets/public/js/script.js"></script>
 	
-	<link rel="stylesheet" href="./assets/public/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="./assets/public/css/bundle.min.css" type="text/css" />
 </head>
 
 <body>
