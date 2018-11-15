@@ -108,7 +108,13 @@
 		<div class="container">
 			<div class="row content">
 				<div class="col-sm-5">
-
+					<div class="welcome-text">
+						<div class="hello">
+							<div class="p1">
+								Добро пожаловать! <span class="snaller">Меня зовут</span>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="col-sm-7">
 					<div class="img-hello">
