@@ -1,4 +1,23 @@
+@import '../public/css/fonts.css';
+* img {
+  max-width: 100%;
+}
+
 body {
   font-style: 16px;
+  position: relative;
   font-family: 'NotoSans';
+  header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .home{
+    padding-top: 128px;
+    background: url(../images/dop-sec-1.png) no-repeat left top;
+    .container{
+      max-width: 1440px;
+    }
+  }
 }
