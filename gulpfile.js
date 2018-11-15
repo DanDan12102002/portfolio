@@ -10,6 +10,7 @@ gulp.task('css', function () {
   gulp.src('assets/sass/style.scss')
     .pipe(sass(''))
     .pipe(rename('styles.css'))
+    .pipe(cleanCSS(''))
     .pipe(prefix('last 15 versions'))
     .pipe(gulp.dest('assets/public/css'));
 });
@@ -23,7 +24,7 @@ gulp.task('concat', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('assets/public/css/*.css', ['css']);
+  gulp.watch('assets/sass/*.scss', ['css']);
 });
 
 

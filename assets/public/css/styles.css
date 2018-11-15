@@ -1,3 +1,8 @@
+* img {
+  max-width: 100%; }
+
 body {
   font-style: 16px;
   font-family: 'NotoSans'; }
+  body .section-home .container {
+    max-width: 1440px; }

@@ -61,7 +61,16 @@
 	
 	<section class="home">
 		<div class="container">
-			
+			<div class="row content">
+				<div class="col-sm-5">
+
+				</div>
+				<div class="col-sm-7">
+					<div class="img-hello">
+						<img src="./assets/public/images/hello.png" alt="">
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
