@@ -68,7 +68,37 @@
 				</div>
 				<div class="col-sm-6">
 					<div class="row menu">
-						
+						<div class="col-sm-3">
+							<div class="link"><a href="">Главная</a></div>
+						</div>
+						<div class="col-sm-3">
+							<div class="link"><a href="">Обо мне</a></div>
+						</div>
+						<div class="col-sm-3">
+							<div class="link"><a href="">Услуги</a></div>
+						</div>
+						<div class="col-sm-3">
+							<div class="link"><a href="">Контакты</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="row networks">
+						<div class="col-sm-4">
+							<div class="circle-icon">
+								<a href="https://www.facebook.com/profile.php?id=100017213259299&ref=bookmarks"><i class="fa fa-facebook-f"></i></a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="circle-icon">
+								<a href="https://www.instagram.com/dan_prozar/"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="circle-icon">
+								<a href="https://vk.com/dan_proz"><i class="fa fa-vk"></i></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
