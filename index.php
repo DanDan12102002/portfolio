@@ -66,6 +66,11 @@
 						<img src="./assets/public/images/logo.png" alt="">
 					</div>
 				</div>
+				<div class="col-sm-6">
+					<div class="row menu">
+						
+					</div>
+				</div>
 			</div>
 		</div>
 	</header>
