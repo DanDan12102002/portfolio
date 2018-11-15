@@ -107,18 +107,32 @@
 	<section class="home">
 		<div class="container">
 			<div class="row content">
-				<div class="col-sm-5">
+				<div class="col-sm-6">
 					<div class="welcome-text">
 						<div class="hello">
-							<div class="p1">
-								Добро пожаловать! <span class="snaller">Меня зовут</span>
+							<div class="p">
+								Добро пожаловать! <span class="smaller">Меня зовут</span>
+							</div>
+						</div>
+						<div class="name">
+							<div class="p h1">
+								<span class="d">Д</span>аня Прозар
+							</div>
+						</div>
+						<div class="spec-on">
+							<div class="p">
+								Front-end web разработчик
+							</div>
+						</div>
+						<div class="text-about">
+							<div class="p">
+								Lorem ipsum dolor sit amet,Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-sm-7">
-					<div class="img-hello">
-						<img src="./assets/public/images/hello.png" alt="">
+					<div class="row buttons">
+						<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".portfolio">Мои работы</button></div>
+						<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".hire-me">Заказать у меня сайт</button></div>
 					</div>
 				</div>
 			</div>

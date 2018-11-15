@@ -1,3 +1,4 @@
+@import '_variables.scss';
 @import '../public/css/fonts.css';
 * img {
   max-width: 100%;
@@ -7,6 +8,7 @@ body {
   font-style: 16px;
   position: relative;
   font-family: 'NotoSans';
+  color: $def-color;
   header{
     position: absolute;
     top: 0;
@@ -59,8 +61,8 @@ body {
           &:hover,
           &:active,
           &:focus {
-            border-color: #6e41ff;
-            background-color: #6e41ff;
+            border-color: $purple;
+            background-color: $purple;
             margin-top: -7px;
             a{
               color: #ffffff;
@@ -71,20 +73,57 @@ body {
     }
   }
   .home{
-    padding-top: 128px;
+    padding-top: 300px;
     background: url(../images/hello.jpg) no-repeat top center;
     height: 900px;
-    .container{
-      max-width: 1440px;
-    }
     .content{
       .welcome-text {
         .hello {
-          .p1 {
+          .p {
             font-size: 1.750em;
             .smaller {
               font-size: 0.75em;
             }
+          }
+        }
+        .name{
+          margin: 15px 0;
+          .p{
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 50px;
+            .d{
+              letter-spacing: 4px;
+            }
+          }
+        }
+        .spec-on{
+          margin-bottom: 10px;
+          .p{
+            font-family: 'Merriewether';
+            font-size: 1.875em;
+          }
+        }
+        .text-about{
+          .p{
+            color: lighten($def-color, 30%);
+          }
+        }
+      }
+      .buttons {
+        margin-top: 20px;
+        .btn-banner{
+          border-radius: 2px;
+          width: 100%;
+          color: #fdfdfd;
+          transition: .3s;
+          background-color: $purple;
+          font-size: 1.250em;
+          &:hover,
+          &:focus,
+          &:active {
+            box-shadow: 0px 20px 50px 0px rgba(110, 65, 255, 0.20);
+            background-color: darken($purple, 4%);
           }
         }
       }
