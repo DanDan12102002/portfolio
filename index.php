@@ -45,20 +45,30 @@
 	<meta itemprop="description" content="<?php echo $meta->desc; ?>" />
 	<meta itemprop="image" content="<?php echo $meta->image; ?>" />
 
+	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="./assets/public/js/jquery.validate.min.js"></script>
 	<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="./node_modules/popper.js/dist/popper.js" crossorigin="anonymous"></script>
 	<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<link href="./node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
-	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="./assets/public/js/jquery.validate.min.js"></script>
 	<script src="./assets/public/js/script.js"></script>
 	
-	<link rel="stylesheet" href="./assets/public/css/bundle.min.css" type="text/css" />
+	<link rel="stylesheet" href="./assets/public/css/styles.min.css" type="text/css" />
 </head>
 
 <body>
-	
+	<header>
+		<div class="container">
+			<div class="row head">
+				<div class="col-sm-3">
+					<div class="logo">
+						<img src="./assets/public/images/logo.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 	<section class="home">
 		<div class="container">
 			<div class="row content">
