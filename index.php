@@ -140,7 +140,11 @@
 	</section>
 	<section class="about-me">
 		<div class="container">
-			
+			<div class="title-gen">
+				<div class="p1">
+					About Us
+				</div>
+			</div>
 		</div>
 	</section>
 
