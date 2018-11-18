@@ -142,7 +142,17 @@
 		<div class="container">
 			<div class="title-gen">
 				<div class="p1">
-					About Us
+					Немного про меня
+				</div>
+			</div>
+			<div class="pod-title">
+				<div class="p1">
+					Front-end web разработчик
+				</div>
+			</div>
+			<div class="description">
+				<div class="p1">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui laborum adipisci pariatur consequuntur, modi rerum error eos magni repudiandae, est impedit provident, doloribus itaque non? Cupiditate praesentium corrupti non doloremque.
 				</div>
 			</div>
 		</div>

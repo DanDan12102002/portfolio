@@ -1,11 +1,11 @@
-@import '../sass/_variables.scss';
 @import '../public/css/fonts.css';
+@import 'variables';
 * img {
   max-width: 100%;
 }
 
 body {
-  font-style: 16px;
+  font-style: $def-fsize;
   position: relative;
   font-family: 'NotoSans';
   color: $def-color;
@@ -129,4 +129,15 @@ body {
       }
     }
   }
+  .about-me {
+    .title-gen{
+      @include title-gen(2em);
+    }
+    .pod-title {
+      @include pod-title(1.125em);
+    }
+    .description {
+      @include description(80%, 15px auto 0, 0.95em, center);
+    }
+  } 
 }
