@@ -2,6 +2,9 @@ $def-color: #1a1a1a;
 $purple: #6e41ff;
 $def-fsize: 16px;
 $html-c: #f6945f;
+$css-c: #48bfee;
+$js-c: #f9506f;
+$php-c: #735db6;
 
 @mixin title-gen($fsize){
   .p1{
@@ -42,6 +45,21 @@ $html-c: #f6945f;
     &:active {
       box-shadow: 0px 20px 50px 0px rgba(110, 65, 255, 0.20);
       background-color: darken($purple, 4%);
+    }
+  }
+}
+
+
+@mixin color($color) {
+  .bar {
+    background: $color;
+  }
+
+  .label {
+    background: $color;
+
+    &::before {
+      border-top-color: $color;
     }
   }
 }

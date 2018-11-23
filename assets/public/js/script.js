@@ -90,7 +90,6 @@ function animateBars(){
 				let bar = $(this).find('.bar');
 				let label = $(this).find('.label');
 				let w_prog = $(this).attr("aria-valuenow");
-				let time = w_prog * 21;
 
 				bar.css('width', w_prog + "%");
 				label.css('left', w_prog - 3 + "%");

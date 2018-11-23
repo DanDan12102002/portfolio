@@ -56,6 +56,10 @@
 	
 	
 	<link rel="stylesheet" href="./assets/public/css/styles.min.css" type="text/css" />
+	<script src="./node_modules/wow.js/dist/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </head>
 
 <body>
@@ -160,7 +164,7 @@
 				<div class="col-sm-6">
 					<div class="skill-bar">
 						<p>HTML</p>
-						<div class="progressbar" aria-valuenow="90">
+						<div id="html" class="progressbar" aria-valuenow="90">
 							<div class="bar" role="progressbar"></div>
 							<span class="label"></span>
 						</div>
@@ -169,7 +173,7 @@
 				<div class="col-sm-6">
 					<div class="skill-bar">
 						<p>JavaScript & Frameworks</p>
-						<div class="progressbar" aria-valuenow="75">
+						<div id="js" class="progressbar" aria-valuenow="75">
 							<div class="bar" role="progressbar"></div>
 							<span class="label"></span>
 						</div>
@@ -181,7 +185,7 @@
 				<div class="col-sm-6">
 					<div class="skill-bar">
 						<p>CSS & Preprocesors</p>
-						<div class="progressbar" aria-valuenow="95">
+						<div id="css" class="progressbar" aria-valuenow="95">
 							<div class="bar" role="progressbar"></div>
 							<span class="label"></span>
 						</div>
@@ -190,7 +194,7 @@
 				<div class="col-sm-6">
 					<div class="skill-bar">
 						<p>PHP & Frameworks</p>
-						<div class="progressbar" aria-valuenow="60">
+						<div id="php" class="progressbar" aria-valuenow="60">
 							<div class="bar" role="progressbar"></div>
 							<span class="label"></span>
 						</div>
@@ -202,6 +206,11 @@
 				<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".portfolio">Скачать Резюме</button></div>
 				<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".hire-me">Заказать у меня сайт</button></div>
 			</div>
+		</div>
+	</section>
+	<section class="section-services">
+		<div class="container">
+
 		</div>
 	</section>
 
