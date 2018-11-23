@@ -156,6 +156,52 @@
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui laborum adipisci pariatur consequuntur, modi rerum error eos magni repudiandae, est impedit provident, doloribus itaque non? Cupiditate praesentium corrupti non doloremque.
 				</div>
 			</div>
+			<div class="row skills top">
+				<div class="col-sm-6">
+					<div class="skill-bar">
+						<p>HTML</p>
+						<div class="progressbar" aria-valuenow="90">
+							<div class="bar" role="progressbar"></div>
+							<span class="label"></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="skill-bar">
+						<p>JavaScript & Frameworks</p>
+						<div class="progressbar" aria-valuenow="75">
+							<div class="bar" role="progressbar"></div>
+							<span class="label"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row skills">
+				<div class="col-sm-6">
+					<div class="skill-bar">
+						<p>CSS & Preprocesors</p>
+						<div class="progressbar" aria-valuenow="95">
+							<div class="bar" role="progressbar"></div>
+							<span class="label"></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="skill-bar">
+						<p>PHP & Frameworks</p>
+						<div class="progressbar" aria-valuenow="60">
+							<div class="bar" role="progressbar"></div>
+							<span class="label"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row buttons">
+				<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".portfolio">Скачать Резюме</button></div>
+				<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".hire-me">Заказать у меня сайт</button></div>
+			</div>
 		</div>
 	</section>
 

@@ -1,6 +1,7 @@
 $def-color: #1a1a1a;
 $purple: #6e41ff;
 $def-fsize: 16px;
+$html-c: #f6945f;
 
 @mixin title-gen($fsize){
   .p1{
@@ -22,6 +23,26 @@ $def-fsize: 16px;
   .p1 {
     text-align: $align;
     font-size: $fsize;
+  }
+}
+
+@mixin buttons($width : 100%, $margin : 0) {
+  width: $width;
+  margin: $margin;
+  .btn-banner {
+    border-radius: 2px;
+    width: 100%;
+    color: #fdfdfd;
+    transition: .3s;
+    background-color: $purple;
+    font-size: 1.250em;
+
+    &:hover,
+    &:focus,
+    &:active {
+      box-shadow: 0px 20px 50px 0px rgba(110, 65, 255, 0.20);
+      background-color: darken($purple, 4%);
+    }
   }
 }
 

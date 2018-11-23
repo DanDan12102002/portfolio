@@ -59,8 +59,6 @@ jQuery(document).ready(function () {
 					$(this).removeClass("shake");
 				}
 			);
-		} else if ($(window).scrollTop () >= 500) {
-
 		} else {
 			el.removeClass('fadeOutUpBig');
 			el.addClass('fadeIn');
@@ -75,5 +73,28 @@ jQuery(document).ready(function () {
 		}
 	);
 
+	//
 
+	//console.log($(window).scrollTop());
+	$(window).scroll(function() {
+		animateBars();
+	});
+
+	animateBars();
 });
+
+function animateBars(){
+		var scrollto = $('.skills.top').offset().top - $(window).height() / 1.13;
+		if ($(window).scrollTop() >= scrollto) {
+			$('.progressbar').each(function () {
+				let bar = $(this).find('.bar');
+				let label = $(this).find('.label');
+				let w_prog = $(this).attr("aria-valuenow");
+				let time = w_prog * 21;
+
+				bar.css('width', w_prog + "%");
+				label.css('left', w_prog - 3 + "%");
+				label.html(w_prog);
+			});
+		}
+}
