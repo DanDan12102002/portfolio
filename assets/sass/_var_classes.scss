@@ -1,0 +1,46 @@
+@import 'mixins';
+$def-color: #1a1a1a;
+$purple: #6e41ff;
+$def-fsize: 16px;
+$html-c: #f6945f;
+$css-c: #48bfee;
+$js-c: #f1d900;
+$php-c: #735db6;
+
+.scrolled{
+  background-color: rgb(241, 241, 241);
+  position: fixed;
+  z-index: 999;
+}
+.to-top {
+  position: fixed;
+  display: none;
+  right: 50px;
+  animation-duration: .4s;
+  bottom: 50px;
+
+  .icon {
+    i {
+      transform: rotate(-45deg);
+      font-size: 2.5em;
+      color: #48bfee;
+      cursor: pointer;
+    }
+  }
+}
+
+#html {
+  @include color($html-c);
+}
+
+#js {
+  @include color($js-c);
+}
+
+#css {
+  @include color($css-c);
+}
+
+#php {
+  @include color($php-c);
+}

@@ -37,7 +37,7 @@ jQuery(document).ready(function () {
 	jQuery(".go-to-block").click(function () {
 		var target = jQuery(this).data('target');
 		jQuery('html, body').animate({
-			scrollTop: jQuery(target).offset().top - 30
+			scrollTop: jQuery(target).offset().top - 100
 		}, 400);
 	});
 	let el = $(".to-top");
@@ -78,9 +78,13 @@ jQuery(document).ready(function () {
 	//console.log($(window).scrollTop());
 	$(window).scroll(function () {
 		animateBars();
+		animateHeader();
 	});
 
 	animateBars();
+	animateHeader();
+	
+	
 });
 
 function animateBars() {
@@ -92,8 +96,18 @@ function animateBars() {
 			let w_prog = $(this).attr("aria-valuenow");
 
 			bar.css('width', w_prog + "%");
-			label.css('left', w_prog - 3 + "%");
+			label.css('left', w_prog - 2.8 + "%");
 			label.html(w_prog);
 		});
+	}
+}
+
+function animateHeader() {
+	var headerHide = $ ('.about-me').offset ().top - 185;
+	let header = $ ('header');
+	if ($ (window).scrollTop () >= headerHide) {
+		header.addClass ('scrolled');
+	} else {
+		header.removeClass ('scrolled');
 	}
 }

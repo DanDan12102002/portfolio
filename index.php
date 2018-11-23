@@ -74,13 +74,13 @@ $meta->desc = '';
 				<div class="col-sm-6">
 					<div class="row menu">
 						<div class="col-sm-3">
-							<div class="link"><a href="" class="go-to-block" data-target=".home">Главная</a></div>
+							<div class="link"><a class="go-to-block" data-target=".home">Главная</a></div>
 						</div>
 						<div class="col-sm-3">
-							<div class="link"><a href="" class="go-to-block" data-target=".about-me">Обо мне</a></div>
+							<div class="link"><a class="go-to-block" data-target=".about-me">Обо мне</a></div>
 						</div>
 						<div class="col-sm-3">
-							<div class="link"><a href="" class="go-to-block" data-target=".services">Услуги</a></div>
+							<div class="link"><a class="go-to-block" data-target=".services">Услуги</a></div>
 						</div>
 						<div class="col-sm-3">
 							<div class="link" class="go-to-block" data-target=".contacts"><a href="">Контакты</a></div>
@@ -126,7 +126,7 @@ $meta->desc = '';
 						</div>
 						<div class="spec-on">
 							<div class="p">
-								Front-end web разработчик
+								Full-stack web разработчик
 							</div>
 						</div>
 						<div class="text-about">
@@ -147,12 +147,12 @@ $meta->desc = '';
 		<div class="container">
 			<div class="title-gen">
 				<div class="p1">
-					Немного про меня
+					Кто я?
 				</div>
 			</div>
 			<div class="pod-title">
 				<div class="p1">
-					Front-end web разработчик
+					Full-stack web разработчик
 				</div>
 			</div>
 			<div class="description">

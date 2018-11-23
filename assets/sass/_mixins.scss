@@ -1,11 +1,3 @@
-$def-color: #1a1a1a;
-$purple: #6e41ff;
-$def-fsize: 16px;
-$html-c: #f6945f;
-$css-c: #48bfee;
-$js-c: #f1d900;
-$php-c: #735db6;
-
 @mixin title-gen($fsize : 2em) {
   margin-bottom: 0;
 
@@ -66,23 +58,6 @@ $php-c: #735db6;
 
     &::before {
       border-top-color: $color;
-    }
-  }
-}
-
-.to-top {
-  position: fixed;
-  display: none;
-  right: 50px;
-  animation-duration: .4s;
-  bottom: 50px;
-
-  .icon {
-    i {
-      transform: rotate(-45deg);
-      font-size: 2.5em;
-      color: #48bfee;
-      cursor: pointer;
     }
   }
 }
