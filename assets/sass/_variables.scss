@@ -6,32 +6,38 @@ $css-c: #48bfee;
 $js-c: #f9506f;
 $php-c: #735db6;
 
-@mixin title-gen($fsize){
-  .p1{
+@mixin title-gen($fsize : 2em) {
+  margin-bottom: 0;
+
+  .p1 {
     font-size: $fsize;
     text-align: center;
     font-weight: 700;
     color: #494949;
   }
 }
+
 @mixin pod-title($fsize) {
   .p1 {
     text-align: center;
     font-size: $fsize;
   }
 }
+
 @mixin description($width, $margin, $fsize, $align) {
   width: $width;
   margin: $margin;
+
   .p1 {
     text-align: $align;
     font-size: $fsize;
   }
 }
 
-@mixin buttons($width : 100%, $margin : 0) {
+@mixin buttons($width : 100%, $margin : 0 auto) {
   width: $width;
   margin: $margin;
+
   .btn-banner {
     border-radius: 2px;
     width: 100%;
@@ -64,14 +70,15 @@ $php-c: #735db6;
   }
 }
 
-.to-top{
+.to-top {
   position: fixed;
   display: none;
   right: 50px;
   animation-duration: .4s;
   bottom: 50px;
-  .icon{
-    i{
+
+  .icon {
+    i {
       transform: rotate(-45deg);
       font-size: 2.5em;
       color: #48bfee;
