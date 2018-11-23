@@ -51,8 +51,9 @@
 	<script src="./node_modules/popper.js/dist/popper.js" crossorigin="anonymous"></script>
 	<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<link href="./node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 
-	<script src="./assets/public/js/script.js"></script>
+	
 	
 	<link rel="stylesheet" href="./assets/public/css/styles.min.css" type="text/css" />
 </head>
@@ -158,6 +159,13 @@
 		</div>
 	</section>
 
+
+
+	<div class="to-top fadeIn go-to-block" data-target=".home">
+		<span class="icon"><i class="fa fa-rocket"></i></span>
+	</div>
+
+	<script src="./assets/public/js/script.js"></script>
 </body>
 
 </html>

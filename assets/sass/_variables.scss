@@ -2,7 +2,6 @@ $def-color: #1a1a1a;
 $purple: #6e41ff;
 $def-fsize: 16px;
 
-
 @mixin title-gen($fsize){
   .p1{
     font-size: $fsize;
@@ -23,5 +22,21 @@ $def-fsize: 16px;
   .p1 {
     text-align: $align;
     font-size: $fsize;
+  }
+}
+
+.to-top{
+  position: fixed;
+  display: none;
+  right: 50px;
+  animation-duration: .4s;
+  bottom: 50px;
+  .icon{
+    i{
+      transform: rotate(-45deg);
+      font-size: 2.5em;
+      color: #48bfee;
+      cursor: pointer;
+    }
   }
 }
