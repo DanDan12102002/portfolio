@@ -2,9 +2,10 @@
 $def-color: #1a1a1a;
 $purple: #6e41ff;
 $def-fsize: 16px;
-$html-c: #f6945f;
-$css-c: #48bfee;
-$js-c: #f1d900;
+$html-c: #2bddbd;
+$css-c: #ff65a5;
+$rocket: #57acec;
+$js-c: #febd59;
 $php-c: #735db6;
 
 .title{
@@ -31,11 +32,11 @@ $php-c: #735db6;
     i {
       transform: rotate(-45deg);
       font-size: 2.5em;
-      color: #48bfee;
+      color: $rocket;
       transition: .2s;
       cursor: pointer;
       &:hover {
-        color: darken($color: #48bfee, $amount: 5%);
+        color: darken($rocket, 5%);
       }
     }
   }

@@ -37,7 +37,7 @@ jQuery(document).ready(function () {
 	jQuery(".go-to-block").click(function () {
 		var target = jQuery(this).data('target');
 		jQuery('html, body').animate({
-			scrollTop: jQuery(target).offset().top - 100
+			scrollTop: jQuery(target).offset().top
 		}, 400);
 	});
 	let el = $(".to-top");

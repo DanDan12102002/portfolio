@@ -80,7 +80,7 @@ $meta->desc = '';
 							<div class="link"><a class="go-to-block" data-target=".about-me">Обо мне</a></div>
 						</div>
 						<div class="col-sm-3">
-							<div class="link"><a class="go-to-block" data-target=".services">Услуги</a></div>
+							<div class="link"><a class="go-to-block" data-target=".service">Услуги</a></div>
 						</div>
 						<div class="col-sm-3">
 							<div class="link" class="go-to-block" data-target=".contacts"><a href="">Контакты</a></div>
@@ -206,7 +206,7 @@ $meta->desc = '';
 		</div>
 	</section>
 	<hr>
-	<section class="services">
+	<section class="service">
 		<div class="container">
 			<div class="title">
 				<div class="p1">
@@ -216,6 +216,52 @@ $meta->desc = '';
 			<div class="pod-title">
 				<div class="p1">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+				</div>
+			</div>
+
+			<div class="services row">
+				<div class="col-sm-4">
+					<div class="card c-1">
+						<div class="card-head">
+							<div class="icon">
+								<img src="./assets/public/images/landing.svg" alt="">
+							</div>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title title"><div class="p1"><b>Разработка Landing Page</b></div></h5>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis eveniet laudantium nesciunt animi error numquam corrupti, fuga culpa quos illum excepturi perferendis! Quis reprehenderit eos dolore expedita, temporibus officia!</p>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="card c-2">
+						<div class="card-head">
+							<div class="icon">
+								<img src="./assets/public/images/cms.svg" alt="">
+							</div>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title title"><div class="p1"><b>Разработка проекта под CMS</b></div></h5>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis eveniet laudantium nesciunt animi error numquam corrupti, fuga culpa quos illum excepturi perferendis! Quis reprehenderit eos dolore expedita, temporibus officia!</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="card c-3">
+						<div class="card-head">
+							<div class="icon">
+								<img src="./assets/public/images/full-stack.svg" alt="">
+							</div>
+						</div>
+						<div class="card-body">
+							<h5 class="card-title title"><div class="p1"><b>Full-stack web разработка</b></div></h5>
+							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis eveniet laudantium nesciunt animi error numquam corrupti, fuga culpa quos illum excepturi perferendis! Quis reprehenderit eos dolore expedita, temporibus officia!</p>
+							
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
