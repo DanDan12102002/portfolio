@@ -9,7 +9,7 @@
   }
 }
 
-@mixin pod-title($fsize) {
+@mixin pod-title($fsize : 1.125em) {
   .p1 {
     text-align: center;
     font-size: $fsize;

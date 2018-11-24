@@ -78,11 +78,11 @@ jQuery(document).ready(function () {
 	//console.log($(window).scrollTop());
 	$(window).scroll(function () {
 		animateBars();
-		animateHeader();
+		//animateHeader();
 	});
 
 	animateBars();
-	animateHeader();
+	//animateHeader();
 	
 	
 });
@@ -102,7 +102,7 @@ function animateBars() {
 	}
 }
 
-function animateHeader() {
+/*function animateHeader() {
 	var headerHide = $ ('.about-me').offset ().top - 185;
 	let header = $ ('header');
 	if ($ (window).scrollTop () >= headerHide) {
@@ -110,4 +110,4 @@ function animateHeader() {
 	} else {
 		header.removeClass ('scrolled');
 	}
-}
+}*/

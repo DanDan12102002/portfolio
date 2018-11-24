@@ -157,7 +157,7 @@ $meta->desc = '';
 			</div>
 			<div class="description">
 				<div class="p1">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui laborum adipisci pariatur consequuntur, modi rerum error eos magni repudiandae, est impedit provident, doloribus itaque non? Cupiditate praesentium corrupti non doloremque.
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui laborum adipisci pariatur consequuntur, modi rerum error @eos magni repudiandae, est impedit provident, doloribus itaque non? Cupiditate praesentium corrupti non doloremque.
 				</div>
 			</div>
 			<div class="row skills top">
@@ -173,7 +173,7 @@ $meta->desc = '';
 				<div class="col-sm-6">
 					<div class="skill-bar">
 						<p>JavaScript & Frameworks</p>
-						<div id="js" class="progressbar" aria-valuenow="75">
+						<div id="js" class="progressbar" aria-valuenow="80">
 							<div class="bar" role="progressbar"></div>
 							<span class="label"></span>
 						</div>
@@ -194,7 +194,7 @@ $meta->desc = '';
 				<div class="col-sm-6">
 					<div class="skill-bar">
 						<p>PHP & Frameworks</p>
-						<div id="php" class="progressbar" aria-valuenow="60">
+						<div id="php" class="progressbar" aria-valuenow="65">
 							<div class="bar" role="progressbar"></div>
 							<span class="label"></span>
 						</div>
@@ -205,11 +205,27 @@ $meta->desc = '';
 			
 		</div>
 	</section>
+	<hr>
 	<section class="services">
 		<div class="container">
 			<div class="title">
 				<div class="p1">
 					Услуги
+				</div>
+			</div>
+			<div class="pod-title">
+				<div class="p1">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+				</div>
+			</div>
+		</div>
+	</section>
+	<hr>
+	<section class="benefits">
+		<div class="container">
+			<div class="title">
+				<div class="p1">
+					Преимущества работы со мной
 				</div>
 			</div>
 			<div class="service row">
@@ -255,7 +271,7 @@ $meta->desc = '';
 								</svg>
 						</div>
 						<div class="title">
-							<div class="p1">Заголовок</div>
+							<div class="p1">Скорость</div>
 						</div>
 						<div class="text">
 							<div class="p1">Lorem ipsum dolor sit amet consectetur.</div>
@@ -273,7 +289,7 @@ $meta->desc = '';
 							<img src="./assets/public/images/icon-work.png" alt="">
 						</div>
 						<div class="title">
-							<div class="p1">Заголовок</div>
+							<div class="p1">Качество</div>
 						</div>
 						<div class="text">
 							<div class="p1">Lorem ipsum dolor sit amet consectetur.</div>
@@ -291,7 +307,7 @@ $meta->desc = '';
 							<img src="./assets/public/images/checked.svg" alt="">
 						</div>
 						<div class="title">
-							<div class="p1">Заголовок</div>
+							<div class="p1">Довольныйй клиент</div>
 						</div>
 						<div class="text">
 							<div class="p1">Lorem ipsum dolor sit amet consectetur.</div>
