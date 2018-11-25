@@ -207,7 +207,6 @@ $meta->desc = '';
 			
 		</div>
 	</section>
-	<hr>
 	<section class="service">
 		<div class="container">
 			<div class="title">
@@ -235,7 +234,7 @@ $meta->desc = '';
 						</div>
 						<div class="foot-card">
 							<div class="price-block">
-								<p>от $55</p>
+								<p>от $50</p>
 							</div>
 						</div>
 					</div>
@@ -254,7 +253,7 @@ $meta->desc = '';
 						</div>
 						<div class="foot-card">
 							<div class="price-block">
-								<p>от $120</p>
+								<p>от $100</p>
 							</div>
 						</div>
 					</div>
@@ -273,7 +272,7 @@ $meta->desc = '';
 						</div>
 						<div class="foot-card">
 							<div class="price-block">
-								<p>от $270</p>
+								<p>от $250</p>
 							</div>
 						</div>
 					</div>
@@ -285,7 +284,6 @@ $meta->desc = '';
 			</div>
 		</div>
 	</section>
-	<hr>
 	<section class="benefits">
 		<div class="container">
 			<div class="title">
@@ -293,7 +291,7 @@ $meta->desc = '';
 					Преимущества работы со мной
 				</div>
 			</div>
-			<div class="service row">
+			<div class="benefit row">
 				<div class="col-sm-4">
 					<div class="ser-item">
 						<div class="icon">
@@ -351,7 +349,6 @@ $meta->desc = '';
 			
 		</div>
 	</section>
-	<hr>
 	<section class="portfolio">
 		<div class="container">
 			<div class="title">
@@ -395,7 +392,6 @@ $meta->desc = '';
 			</div>
 		</div>
 	</section>
-	<hr>
 	<section class="testimonials">
 		<div class="container">
 			<div class="title">
@@ -471,6 +467,20 @@ $meta->desc = '';
 				</div>
 			</div>
 
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="container">
+			<div class="title">
+				<div class="p1">
+					Как связаться со мной
+				</div>
+			</div>
+			<div class="pod-title">
+				<div class="p1">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, assumenda.
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="hire-me">
