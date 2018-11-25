@@ -473,9 +473,34 @@ $meta->desc = '';
 
 		</div>
 	</section>
-	<hr>
-	<section class="contacts">
+	<section class="hire-me">
 		<div class="container">
+			<div class="title">
+				<div class="p1">
+					Хотите нанять меня?
+				</div>
+			</div>
+			<div class="pod-title">
+				<div class="p1">
+					Вы всегда сможете обратится ко мне
+				</div>
+			</div>
+			<div class="hire-block">
+				<form action="" method="post">
+					<div class="form-controll hire">
+						<div class="inputblock">
+							<input type="email" placeholder="Введите ваш e-mail" name="email" required />
+						</div>
+						<div class="inputblock">
+							<textarea placeholder="Введите ваше сообщение" name="msg" required></textarea>
+						</div>
+					</div>
+
+					<div class="row buttons">
+						<div class="col-sm-12"><button type="submit" class="btn send-ajax">Нанять меня</button></div>
+					</div>
+				</form>
+			</div>
 			
 		</div>
 	</section>

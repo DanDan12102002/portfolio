@@ -60,3 +60,76 @@ $php-c: #735db6;
 #php {
   @include color($php-c);
 }
+
+form {		
+  $placeholderColor: #999;
+  $placeholderOpacity: 1;
+  
+  ::-webkit-input-placeholder {
+    color: $placeholderColor;
+    opacity: $placeholderOpacity;
+  }
+  
+  ::-moz-placeholder {
+    color: $placeholderColor;
+    opacity: $placeholderOpacity;
+  }
+  
+  :-moz-placeholder {
+    color: $placeholderColor;
+    opacity: $placeholderOpacity;
+  }
+  
+  :-ms-input-placeholder {
+    color: $placeholderColor;
+    opacity: $placeholderOpacity;
+  }
+  
+  .inputblock {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    label {
+      &.error {
+        display: none !important;
+      }
+    }
+    input, textarea {
+      display: inline-block;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid $purple;
+      line-height: 48px;
+      box-shadow: none !important;
+      height: 48px;
+      padding: 0 25px;
+      font-size: 1.125em;
+      font-weight: 400;
+      background: transparent;
+      color: #333;
+      
+      &.error {
+        border-color: #E76767;
+      }
+    }
+    textarea {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      line-height: 1.3;
+      resize: none;
+      height: auto;
+      padding-top: 40px;
+      min-height: 150px;
+    }
+  }
+  
+  .controls {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    
+    button, input {
+      width: 100%;
+    }
+  }
+}
