@@ -41,6 +41,9 @@ $php-c: #735db6;
     }
   }
 }
+.buttons {
+  @include buttons(570px, 40px auto 0);
+}
 
 #html {
   @include color($html-c);

@@ -11,7 +11,7 @@ gulp.task('css', function () {
     .pipe(cleanCSS(''))
     .pipe(rename('styles.min.css'))
     .pipe(prefix('last 15 versions'))
-    .pipe(gulp.dest('assets/public/css'));
+    .pipe(gulp.dest('assets/public/css'))
 });
 
 gulp.task('watch', function () {

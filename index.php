@@ -45,7 +45,9 @@ $meta->desc = '';
 	<meta itemprop="description" content="<?php echo $meta->desc; ?>" />
 	<meta itemprop="image" content="<?php echo $meta->image; ?>" />
 
-	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script
+			  src="./node_modules/jquery/dist/jquery.min.js"
+			  crossorigin="anonymous"></script>
 	<script src="./assets/public/js/jquery.validate.min.js"></script>
 	<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="./node_modules/popper.js/dist/popper.js" crossorigin="anonymous"></script>
@@ -230,7 +232,11 @@ $meta->desc = '';
 						<div class="card-body">
 							<h5 class="card-title title"><div class="p1"><b>Разработка Landing Page</b></div></h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis eveniet laudantium nesciunt animi error numquam corrupti, fuga culpa quos illum excepturi perferendis! Quis reprehenderit eos dolore expedita, temporibus officia!</p>
-							
+						</div>
+						<div class="foot-card">
+							<div class="price-block">
+								<p>от $55</p>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -246,6 +252,11 @@ $meta->desc = '';
 							<h5 class="card-title title"><div class="p1"><b>Разработка проекта под CMS</b></div></h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis eveniet laudantium nesciunt animi error numquam corrupti, fuga culpa quos illum excepturi perferendis! Quis reprehenderit eos dolore expedita, temporibus officia!</p>
 						</div>
+						<div class="foot-card">
+							<div class="price-block">
+								<p>от $120</p>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -259,10 +270,18 @@ $meta->desc = '';
 						<div class="card-body">
 							<h5 class="card-title title"><div class="p1"><b>Full-stack web разработка</b></div></h5>
 							<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officiis eveniet laudantium nesciunt animi error numquam corrupti, fuga culpa quos illum excepturi perferendis! Quis reprehenderit eos dolore expedita, temporibus officia!</p>
-							
+						</div>
+						<div class="foot-card">
+							<div class="price-block">
+								<p>от $270</p>
+							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="row buttons">
+				<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".portfolio">Мои работы</button></div>
+				<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".hire-me">Заказать у меня сайт</button></div>
 			</div>
 		</div>
 	</section>
@@ -279,42 +298,7 @@ $meta->desc = '';
 					<div class="ser-item">
 						<div class="icon">
 							<!-- Some icon -->
-							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve" width="100%" height="100%">
-								<g>
-									<path d="M30,0c-0.553,0-1,0.447-1,1v13.292c0,0.553,0.447,1,1,1s1-0.447,1-1V2.018C45.979,2.546,58,14.896,58,30   c0,15.439-12.561,28-28,28S2,45.439,2,30c0-7.46,2.9-14.479,8.166-19.764c0.391-0.392,0.389-1.024-0.002-1.414   C9.772,8.434,9.14,8.434,8.75,8.824C3.107,14.486,0,22.007,0,30c0,16.542,13.458,30,30,30s30-13.458,30-30S46.542,0,30,0z" fill="#6e41ff"/>
-									<path d="M28.555,33.532c0.614,0.845,1.563,1.376,2.604,1.457C31.252,34.997,31.345,35,31.437,35c0.942,0,1.848-0.372,2.519-1.044   c0.737-0.737,1.114-1.756,1.033-2.797s-0.612-1.99-1.459-2.606l-12.944-9.363c-0.396-0.286-0.945-0.242-1.293,0.104   c-0.348,0.348-0.391,0.896-0.104,1.293L28.555,33.532z M32.355,30.172c0.371,0.27,0.604,0.687,0.64,1.144   c0.036,0.456-0.13,0.903-0.453,1.227c-0.324,0.323-0.779,0.488-1.228,0.453c-0.456-0.035-0.873-0.269-1.141-0.637l-5.713-7.897   L32.355,30.172z" fill="#6e41ff"/>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								<g>
-								</g>
-								</svg>
+							<img src="./assets/public/images/speed.svg" alt="">
 						</div>
 						<div class="title">
 							<div class="p1">Скорость</div>
@@ -353,7 +337,7 @@ $meta->desc = '';
 							<img src="./assets/public/images/checked.svg" alt="">
 						</div>
 						<div class="title">
-							<div class="p1">Довольныйй клиент</div>
+							<div class="p1">Довольный клиент</div>
 						</div>
 						<div class="text">
 							<div class="p1">Lorem ipsum dolor sit amet consectetur.</div>
@@ -364,14 +348,137 @@ $meta->desc = '';
 					</div>
 				</div>
 			</div>
-			<div class="row buttons">
-				<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".portfolio">Скачать Резюме</button></div>
-				<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".hire-me">Заказать у меня сайт</button></div>
+			
+		</div>
+	</section>
+	<hr>
+	<section class="portfolio">
+		<div class="container">
+			<div class="title">
+				<div class="p1">
+					Портфолио
+				</div>
+			</div>
+			<div class="pod-title">
+				<div class="p1">
+					Мои работы
+				</div>
+			</div>
+
+			<div class="works row">
+				
+				<div class="col-sm-6">
+					<div class="item">
+						<img src="./assets/public/images/portfolio/item-3.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="item">
+						<img src="./assets/public/images/portfolio/item-2.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<div class="item">
+						<img src="./assets/public/images/portfolio/item-1.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="item">
+						<img src="./assets/public/images/portfolio/item-4.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="item">
+						<img src="./assets/public/images/portfolio/item-5.jpg" alt="">
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
+	<hr>
+	<section class="testimonials">
+		<div class="container">
+			<div class="title">
+				<div class="p1">
+					Отзывы
+				</div>
+			</div>
+			<div class="pod-title">
+				<div class="p1">
+					Что говорят обо мне люди
+				</div>
+			</div>
 
+			<div class="testimonal-block">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="item-test">
+								<div class="photo joseph">
+									
+								</div>
+								<div class="name">
+									<div class="p1">
+										Joseph Kent
+									</div>
+								</div>
+								<div class="location">
+									<div class="p1">
+										Tampa, US
+									</div>
+								</div>
 
+								<div class="text">
+									<p class="p1">Eager and Able - Dan is exactly what you want in a contractor on Upwork!</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="carousel-item">
+							<div class="item-test">
+								<div class="photo dima">
+									
+								</div>
+								<div class="name">
+									<div class="p1">
+										Дмитрий Сабадаш
+									</div>
+								</div>
+								<div class="location">
+									<div class="p1">
+										Каменец-Подольский, Украина
+									</div>
+								</div>
+
+								<div class="text">
+									<p class="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aut</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev control" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<i class="fa fa-chevron-left"></i>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next control" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<i class="fa fa-chevron-right"></i>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<hr>
+	<section class="contacts">
+		<div class="container">
+			
+		</div>
+	</section>
 
 	<div class="to-top fadeIn go-to-block" data-target=".home">
 		<span class="icon"><i class="fa fa-rocket"></i></span>
