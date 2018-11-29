@@ -76,16 +76,16 @@ $meta->desc = '';
 				<div class="col-sm-6">
 					<div class="row menu">
 						<div class="col-sm-3">
-							<div class="link"><a class="go-to-block" data-target=".home">Главная</a></div>
-						</div>
-						<div class="col-sm-3">
 							<div class="link"><a class="go-to-block" data-target=".about-me">Обо мне</a></div>
 						</div>
 						<div class="col-sm-3">
 							<div class="link"><a class="go-to-block" data-target=".service">Услуги</a></div>
 						</div>
 						<div class="col-sm-3">
-							<div class="link" class="go-to-block" data-target=".contacts"><a href="">Контакты</a></div>
+							<div class="link"><a class="go-to-block" data-target=".portfolio">Портфолио</a></div>
+						</div>
+						<div class="col-sm-3">
+							<div class="link"><a href="" class="go-to-block" data-target=".contacts">Контакты</a></div>
 						</div>
 					</div>
 				</div>
@@ -429,7 +429,7 @@ $meta->desc = '';
 								</div>
 
 								<div class="text">
-									<p class="p1">Eager and Able - Dan is exactly what you want in a contractor on Upwork!</p>
+									<p class="p1">Стремительный и умный - Даня именно тот, кого вы ищете на Upwork!</p>
 								</div>
 							</div>
 						</div>
@@ -451,7 +451,7 @@ $meta->desc = '';
 								</div>
 
 								<div class="text">
-									<p class="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem aut</p>
+									<p class="p1">Очень доволен работой по сайту! Все было сделано четко, так как планировалось и в очень короткий срок. Рекомендую!</p>
 								</div>
 							</div>
 						</div>
@@ -480,6 +480,31 @@ $meta->desc = '';
 				<div class="p1">
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, assumenda.
 				</div>
+			</div>
+			<div class="contact-block">
+				<form action="" method="post">
+					<div class="form-controll contact">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="inputblock">
+									<input type="email" placeholder="Введите ваш e-mail" name="email" required />
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="inputblock">
+									<input type="text" placeholder="Введите ваше имя" name="name" required />
+								</div>
+							</div>
+						</div>
+						<div class="inputblock">
+							<textarea placeholder="Введите ваше сообщение" name="msg" required></textarea>
+						</div>
+					</div>
+
+					<div class="row buttons">
+						<div class="col-sm-12"><button type="submit" class="btn send-ajax">Написать мне</button></div>
+					</div>
+				</form>
 			</div>
 		</div>
 	</section>
@@ -514,6 +539,56 @@ $meta->desc = '';
 			
 		</div>
 	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row head">
+				<div class="col-sm-3">
+					<div class="logo">
+						<img src="./assets/public/images/logo.png" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="row menu">
+						<div class="col-sm-4">
+							<div class="link"><a class="go-to-block" data-target=".about-me">Обо мне</a></div>
+						</div>
+						<div class="col-sm-4">
+							<div class="link"><a class="go-to-block" data-target=".portfolio">Портфолио</a></div>
+						</div>
+						<div class="col-sm-4">
+							<div class="link"><a class="go-to-block" data-target=".service">Услуги</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="row networks">
+						<div class="col-sm-4">
+							<div class="circle-icon">
+								<a href="https://www.facebook.com/profile.php?id=100017213259299&ref=bookmarks"><i class="fa fa-facebook-f"></i></a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="circle-icon">
+								<a href="https://www.instagram.com/dan_prozar/"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="circle-icon">
+								<a href="https://vk.com/dan_proz"><i class="fa fa-vk"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="copyright">
+				<div class="p1">
+					Copyright <?php echo date('Y'); ?> Dan Prozar. All Rights Resered
+				</div>
+			</div>
+		</div>
+	</footer>
 
 	<div class="to-top fadeIn go-to-block" data-target=".home">
 		<span class="icon"><i class="fa fa-rocket"></i></span>

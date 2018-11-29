@@ -12,6 +12,7 @@ body {
   color: $def-color;
 
   header {
+    @include header_footer();
     position: absolute;
     transition: .5s;
     top: 0;
@@ -21,75 +22,6 @@ body {
     height: 100px;
     right: 0;
     left: 0;
-
-    .head {
-      align-items: center;
-      width: 100%;
-      height: 100%;
-      .logo{
-        margin-top: 27px;
-      }
-      .menu {
-        text-align: center;
-        
-        .link {
-          a {
-            color: #1a1a1a;
-            transition: .3s;
-            font-weight: 700;
-            cursor: pointer;
-            text-decoration: none;
-
-            &:hover,
-            &:active,
-            &:focus {
-              color: #686868;
-            }
-          }
-        }
-      }
-
-      .networks {
-        width: 60%;
-        margin: 0 0 0 auto;
-
-        .circle-icon {
-          border-radius: 50%;
-          border: 2px solid #a1a1a1;
-          width: 35px;
-          height: 35px;
-          margin: 0 auto;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          transition: .4s;
-
-          a {
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            color: #a1a1a1;
-            transition: .4s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-          }
-
-          &:hover,
-          &:active,
-          &:focus {
-            border-color: $purple;
-            background-color: $purple;
-            margin-top: -7px;
-
-            a {
-              color: #ffffff;
-            }
-          }
-        }
-      }
-    }
   }
 
   .home {
@@ -396,7 +328,7 @@ body {
                 }
               }
               .text{
-                width: 40%;
+                width: 75%;
                 margin: 25px auto 0;
                 .p1{
                   font-size: 1.125em;
@@ -428,6 +360,16 @@ body {
   }
   .contacts{
     background: url('../images/hire-me.png') no-repeat center center, #f8f6ff;
+    padding: 40px 0;
+    .contact-block{
+      width: 80%;
+      margin: 60px auto 0;
+      form{
+        .buttons {
+          @include buttons(50%, 35px auto 0);
+        }
+      }
+    }
   }
   .hire-me{
     padding: 40px 0;
@@ -436,8 +378,26 @@ body {
       margin: 0 auto;
       form{
         .buttons{
-          @include buttons(50%, 35px auto);
+          @include buttons(50%, 35px auto 0);
         }
+      }
+    }
+  }
+  footer {
+    @include header_footer(#fff);
+    background-color: $purple;
+    height: inherit;
+    padding-bottom: 30px;
+    .head{
+      height: 120px;
+    }
+    hr{
+      margin-bottom: 20px;
+    }
+    .copyright{
+      .p1{
+        text-align: center;
+        color: white;
       }
     }
   }
