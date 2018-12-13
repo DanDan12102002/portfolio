@@ -11,6 +11,7 @@ $meta->desc = '';
 	//$meta->url = getBaseUrl();
 	# Картинка для соц. сетей, размер: 1200x630px
 	//$meta->image = $meta->url.'/assets/images/social.jpg';
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -141,6 +142,9 @@ $meta->desc = '';
 						<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".portfolio">Мои работы</button></div>
 						<div class="col-sm-6"><button class="btn btn-banner go-to-block" data-target=".hire-me">Заказать у меня сайт</button></div>
 					</div>
+				</div>
+				<div class="col-sm-6">
+					<img src="./assets/public/images/izometric.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -349,6 +353,15 @@ $meta->desc = '';
 			
 		</div>
 	</section>
+
+
+
+
+
+
+
+
+
 	<section class="portfolio">
 		<div class="container">
 			<div class="title">
@@ -363,35 +376,66 @@ $meta->desc = '';
 			</div>
 
 			<div class="works row">
-				
 				<div class="col-sm-6">
 					<div class="item">
-						<img src="./assets/public/images/portfolio/item-3.jpg" alt="">
+						<div class="hover-block">
+							<div class="circle-link">
+								<i class="fa fa-link"></i>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="item">
-						<img src="./assets/public/images/portfolio/item-2.jpg" alt="">
+						<div class="hover-block">
+							<div class="circle-link">
+								<i class="fa fa-link"></i>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-12">
 					<div class="item">
-						<img src="./assets/public/images/portfolio/item-1.jpg" alt="">
+						<div class="hover-block">
+							<div class="circle-link">
+								<i class="fa fa-link"></i>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="item">
-						<img src="./assets/public/images/portfolio/item-4.jpg" alt="">
+						<div class="hover-block">
+							<div class="circle-link">
+								<i class="fa fa-link"></i>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="item">
-						<img src="./assets/public/images/portfolio/item-5.jpg" alt="">
+						<div class="hover-block">
+							<div class="circle-link">
+								<i class="fa fa-link"></i>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+
+
+
+
+
+
+
+
+
+
 	<section class="testimonials">
 		<div class="container">
 			<div class="title">
@@ -469,45 +513,6 @@ $meta->desc = '';
 
 		</div>
 	</section>
-	<section class="contacts">
-		<div class="container">
-			<div class="title">
-				<div class="p1">
-					Как связаться со мной
-				</div>
-			</div>
-			<div class="pod-title">
-				<div class="p1">
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, assumenda.
-				</div>
-			</div>
-			<div class="contact-block">
-				<form action="" method="post">
-					<div class="form-controll contact">
-						<div class="row">
-							<div class="col-sm-6">
-								<div class="inputblock">
-									<input type="email" placeholder="Введите ваш e-mail" name="email" required />
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="inputblock">
-									<input type="text" placeholder="Введите ваше имя" name="name" required />
-								</div>
-							</div>
-						</div>
-						<div class="inputblock">
-							<textarea placeholder="Введите ваше сообщение" name="msg" required></textarea>
-						</div>
-					</div>
-
-					<div class="row buttons">
-						<div class="col-sm-12"><button type="submit" class="btn send-ajax">Написать мне</button></div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</section>
 	<section class="hire-me">
 		<div class="container">
 			<div class="title">
@@ -521,7 +526,7 @@ $meta->desc = '';
 				</div>
 			</div>
 			<div class="hire-block">
-				<form action="" method="post">
+				<form action="sender.php" enctype="multipart/form-data" method="post">
 					<div class="form-controll hire">
 						<div class="inputblock">
 							<input type="email" placeholder="Введите ваш e-mail" name="email" required />
@@ -532,14 +537,14 @@ $meta->desc = '';
 					</div>
 
 					<div class="row buttons">
-						<div class="col-sm-12"><button type="submit" class="btn send-ajax">Нанять меня</button></div>
+						<div class="col-sm-12"><button type="submit" class="btn send">Нанять меня</button></div>
 					</div>
 				</form>
 			</div>
 			
 		</div>
 	</section>
-
+	
 	<footer>
 		<div class="container">
 			<div class="row head">
@@ -594,6 +599,7 @@ $meta->desc = '';
 		<span class="icon"><i class="fa fa-rocket"></i></span>
 	</div>
 
+	
 	<script src="./assets/public/js/script.js"></script>
 </body>
 

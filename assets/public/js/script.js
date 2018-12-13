@@ -1,5 +1,6 @@
 jQuery(document).ready(function () {
 	// SEND FORMS
+	let action = $('.msg');
 	jQuery('.send-ajax').click(function () {
 		var form = jQuery(this).closest('form');
 
@@ -26,6 +27,11 @@ jQuery(document).ready(function () {
 
 		if (form.valid()) {
 			form.submit();
+			/*action.css('display', 'block');
+			setTimeout(function () {
+				action.addClass('animated fadeOutUp');
+			}, 2000);*/
+			alert('It is works');
 		}
 	});
 
@@ -73,6 +79,23 @@ jQuery(document).ready(function () {
 		}
 	);
 
+
+	let item = $('.item'),
+		link = $('.hover-block .circle-link');
+
+	$('.hover-block').each(function () {
+		item.hover(
+			function () {
+				link.addClass('animated fadeInUp');
+				$('.hover-block').css('display', 'flex');
+			},
+			function () {
+				$('.hover-block').css('display', 'none');
+			}
+		);
+	});
+	
+
 	//
 
 	//console.log($(window).scrollTop());
@@ -83,8 +106,10 @@ jQuery(document).ready(function () {
 
 	animateBars();
 	//animateHeader();
-	
-	
+
+
+
+
 });
 
 function animateBars() {
@@ -111,3 +136,5 @@ function animateBars() {
 		header.removeClass ('scrolled');
 	}
 }*/
+
+new WOW().init();

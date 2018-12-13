@@ -1,4 +1,14 @@
 @import 'mixins';
+.msg {
+  position: absolute;
+  top: 40px;
+  display: none;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
 $def-color: #1a1a1a;
 $purple: #6e41ff;
 $def-fsize: 16px;
@@ -60,6 +70,8 @@ $php-c: #735db6;
 #php {
   @include color($php-c);
 }
+
+
 
 form {		
   $placeholderColor: #999;
